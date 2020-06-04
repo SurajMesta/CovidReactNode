@@ -1,0 +1,108 @@
+.head-title{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-decoration-color: #94d3ac;
+    color: #481380;
+}
+
+
+.head-title2{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-decoration-color: #79d70f;
+    color: #2b580c;
+
+}
+
+
+.head-title3{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-decoration-color: #d92027;
+    color: #ce0f3d;
+
+}
+
+.total1{
+color:#721b65;
+}
+
+.total2{
+    color:#004445
+}
+
+.total3{
+   
+    color:red;
+}
+
+.date-text{
+    color: #010a43;
+}
+
+.date-text2{
+    color:#007944;
+}
+
+.date-text3{
+    color:#da2d2d;
+     
+}
+
+.card1{
+    border-top: 3px solid #00a1ab;
+    border-bottom: 3px solid #00a1ab;
+    
+   
+}
+
+
+
+.card1, .card2, .card3{
+    margin:10px;
+    width:20rem;
+}
+
+.outer-div{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+   
+}
+
+
+
+
+
+.card2{
+    border-top: 3px solid #007944;
+    border-bottom: 3px solid #007944;
+}
+
+
+.card3{
+    border-top: 3px solid #e71414;
+    border-bottom: 3px solid #e71414;
+}
+
+
+
+
+
+@media(max-width: 768px){
+
+    .outer-div{
+        flex:1;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    
+    .card1, .card2, .card3{
+    margin:8px;
+    width:20rem;
+    }
+
+}
